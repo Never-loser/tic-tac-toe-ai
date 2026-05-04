@@ -149,7 +149,7 @@ Open a Pull Request
 Distributed under the MIT License. See LICENSE for more information.
 
 ## 📧 Contact
-- @neverloser - your.ilia95081@gmail.com
+- @neverloser - ilia95081@gmail.com
 
 Project Link: https://github.com/Never-loser/tic-tac-toe-ai
 
