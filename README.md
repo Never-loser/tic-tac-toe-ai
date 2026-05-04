@@ -7,11 +7,11 @@
 > **An AI that never loses.** Built with the Minimax algorithm, this Tic-Tac-Toe engine guarantees perfect gameplay — the best you can achieve is a draw.
 
 ## 🎮 Demo
-X | O | X
---+---+--
-O | X | O
---+---+--
-X | O | O
+
+
+| O | X | O |
+| X | O | X |
+| O | X | X |
 
 ## ✨ Features
 
@@ -102,15 +102,13 @@ def minimax(board, depth, is_maximizing):
 
 + Optimal Strategy: Perfect play guarantees at least a draw
 
-### 🎯 Why This Implementation?
+## 🎯 Why This Implementation?
 
-Approach	             Pros                                  Cons
-------------------------------------------------------------------------------------
-Rule-Based	       |   Fast, simple	                    |    Hard-coded, not perfect
--------------------+------------------------------------+---------------------------
-Machine Learning	 |   Adaptive	                        |    Requires training data
--------------------+------------------------------------+---------------------------
-Minimax ✅	       |   Perfect play, provable optimal	  |    Recursive overhead
+| Approach | Pros | Cons |
+|----------|------|------|
+| **Rule-Based** | Fast, simple | Hard-coded, not perfect |
+| **Machine Learning** | Adaptive | Requires training data |
+| **Minimax** ✅ | Perfect play, provable optimal | Recursive overhead |
 
 ___________________________________________________________________________________________________________________
 ### 🧪 Testing
