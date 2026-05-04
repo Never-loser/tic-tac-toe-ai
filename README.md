@@ -8,10 +8,10 @@
 
 ## 🎮 Demo
 
-
-| O | X | O |
 | X | O | X |
-| O | X | X |
+|---|---|---|
+| O | X | O |
+| O | X |   |
 
 ## ✨ Features
 
@@ -55,21 +55,21 @@ cd tic-tac-toe-ai
 # Run the game
 python tic_tac_toe.py
 ```
- 1 | 2 | 3 
----+---+---
- 4 | 5 | 6 
----+---+---
- 7 | 8 | 9
+| 1 | 2 | 3 |
+|---|---|---|
+| 4 | 5 | 6 |
+| 7 | 8 | 9 |
 
 1. Enter a number (1-9) to place your mark X
 2. AI responds with O
 3. Try to win — but you can't!
 
 ### 📁 Project Structure
-tic-tac-toe-ai/
-├── tic_tac_toe.py    # Main game file
-├── README.md         # Documentation
-└── LICENSE           # MIT License
+| File | Description |
+|------|-------------|
+| `tic_tac_toe.py` | Contains game logic, Minimax algorithm, and CLI interface |
+| `README.md` | Setup instructions, gameplay guide, and technical details |
+| `LICENSE` | MIT License - free to use, modify, and distribute |
 
 
 ### 🔬 Technical Deep Dive
